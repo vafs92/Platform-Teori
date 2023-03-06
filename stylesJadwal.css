@@ -1,0 +1,80 @@
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color :#f3f3f3d7 ;
+    font-weight: bold;
+    background-image: url("bg_blue.png");
+}
+h1, .ket, .tengah, .day{
+    text-align: center;
+}
+
+.day{
+    background-color:  #f3f3f3;
+}
+caption {
+	font-weight: bolder;
+	font-size: 40px;
+	text-align: center;
+	color: #3d3b4b;
+	margin-bottom: 16px;
+    text-shadow: 0px 0px 10px #9593a1;
+}
+tbody tr {
+    border-bottom: 1px solid  #7b8eb1;
+}
+
+tbody tr:last-of-type{
+    border-bottom: 3px solid  #7b8eb1;
+}
+table {
+    border-collapse: collapse;
+    overflow: hidden ;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: medium;
+    width: 80%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+table th:first-child {
+    /* border-radius = top left, top right, bottom right, bottom left */
+      border-radius: 20px 0 0 0; /* curves the top left */
+  }
+  
+table th:last-child {
+      border-radius: 0 20px 0 0; /* curves the top right */
+  }
+th, td{
+    padding: 12px 15px;
+}
+thead th{
+    font-size: large;
+    letter-spacing: 2px;
+    width: 25%;    
+    background-color: #7b8eb1;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+tbody tr:nth-child(odd){
+    background-color: #ddd;
+}
+.kembali{
+    text-align: center;
+    font-size: 17px;
+}
+a:hover{
+    filter: brightness(10%);
+    background: hsl(180, 30%, 50%, .3);
+}
+a{
+    text-decoration: none;
+    color:#3d3b4b;
+    border: 2px solid #3d3b4b;
+    padding: 5px;
+    border-radius: 10px;
+}
+
